@@ -1,0 +1,16 @@
+.heroImage {
+    width: 100%; /* Make it responsive */
+    max-width: 100%;
+    height: auto;
+}
+
+.heroImageContainer {
+    text-align: center; /* Center the image */
+}
+
+.heroImageText {
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.landingPageContainer{
+    background-color: #091219;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    width: 100vw;
+    height: 100vh;
+    color: #eeeeee;
+
+}
+
+.landingPageContainer nav{
+
+    padding-top: 20px;
+    padding-inline: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navlist{
+    display: flex;
+    gap: 20px;
+
+}
+.navheader{
+    display: flex;
+    gap: 25;
+}
+.navheader img{
+    width: 15%;
+}
+
+.row h1{
+    font-size: 56px;
+    font-weight: 400;
+    padding:150px 0px 20px 24px;
+}
+
+.row p{
+    font-weight: 200;
+    font-size: 24px;
+    padding: 20px 0px 20px 24px;
+}
+span{
+    color: #117FC5;
+}
+
+
+.row img{
+    width: 65%;
+    margin-top: 120px;
+    margin-left: 150px;
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 10px;
+}
+.connectbuttons{
+    padding-left: 24px;
+    display: flex;
+    gap: 20px;
+    
+}

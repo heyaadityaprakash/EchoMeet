@@ -1,0 +1,22 @@
+nav{
+
+    padding-top: 20px;
+    padding-inline: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navlist{
+    display: flex;
+    gap: 20px;
+
+}
+.navheader{
+    display: flex;
+    gap: 25;
+}
+.navheader img{
+    width: 15%;
+}
