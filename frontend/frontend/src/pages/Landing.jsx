@@ -6,10 +6,13 @@ import refimg from '../assets/meeting_vector.png'
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { Link } from 'react-router-dom'
 
 
 function Landing() {
+
+    
+
     return ( 
         <div className='landingPageContainer'>
             <nav>
@@ -51,7 +54,7 @@ function Landing() {
                             backgroundColor:"#117FC5",
                             color:"#eeeeee",
                             padding:"5px 30px"
-                            }}>Get Started</Button>
+                            }}> <Link to={"/auth"}></Link> Get Started</Button>
 
                             <TextField id="outlined-basic" label="Enter Meeting Link" variant="outlined"sx={{
                                 "& .MuiOutlinedInput-root": {

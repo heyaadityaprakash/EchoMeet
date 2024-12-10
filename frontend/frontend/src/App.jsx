@@ -5,6 +5,8 @@ import './App.css'
 
 import {Route,BrowserRouter as Router,Routes} from 'react-router-dom'
 import Landing from './pages/landing'
+import Authentication from './pages/Authentication'
+import { AuthProvider } from './contexts/AuthContext'
 
 function App() {
 
@@ -12,9 +14,12 @@ function App() {
   return (
     <>
     <Router>
+      <AuthProvider>
       <Routes>
         <Route path='/' element={<Landing/>}></Route>
-      </Routes>
+        <Route path='/auth'element={<Authentication/>}></Route>
+      </Routes> 
+      </AuthProvider>
     </Router>
 
      
