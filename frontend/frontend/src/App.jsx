@@ -7,6 +7,7 @@ import {Route,BrowserRouter as Router,Routes} from 'react-router-dom'
 import Landing from './pages/landing'
 import Authentication from './pages/Authentication'
 import { AuthProvider } from './contexts/AuthContext'
+import EchoMeet from './pages/EchoMeet'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Landing/>}></Route>
         <Route path='/auth'element={<Authentication/>}></Route>
+        <Route path='/:url' element={<EchoMeet/>}></Route>
       </Routes> 
       </AuthProvider>
     </Router>
